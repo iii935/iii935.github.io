@@ -3,7 +3,7 @@
 ---
 ### Project Page
 
-https://kaist-viclab.github.io/fmanet-site/
+https://kaist-viclab.github.io/fmanet-site
 
 
 ### Codes and Pretrained models
