@@ -127,15 +127,15 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <div class="title is-2 publication-title"><h1 style="display: inline; clear:none;"><img src="./static/image/apple.png" width="40", height="40"><font color="#d91421"><b>F</b></font><font color="#008000"><b>MA</font>-Net:</b> <font color="#d91421"><b>F</b></font>low-Guided Dynamic Filtering and Iterative Feature Refinement with <font color="#008000"><b>M</b></font>ulti-<font color="#008000"><b>A</b></font>ttention for Joint Video Super-Resolution and Deblurring</h1></div>
+          <div class="title is-2 publication-title"><h1 style="display: inline; clear:none;"><img src="./static/image/apple.png" width="40", height="40"><font color="#d91421"><b>S</b></font><font color="#008000"><b>R</font>-Net:</b> <font color="#d91421"><b>F</b></font>Enh <font color="#008000"><b>a</b></font>n<font color="#008000"><b></b></font></h1></div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.viclab.kaist.ac.kr/">Geunhyuk Youk</a><sup> 1</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <a target="_blank" rel="noopener noreferrer" href="">Geunhyuk Youk</a><sup> 1</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <span class="author-block">
-              <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/ozbro/">Jihyong Oh</a><sup>† 2</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a target="_blank" rel="noopener noreferrer" href="   ">Jihyong Oh</a><sup>† 2</sup>&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.viclab.kaist.ac.kr/">Munchurl Kim</a><sup>† 1</sup>
+              <a target="_blank" rel="noopener noreferrer" href="   ">Munchurl Kim</a><sup>† 1</sup>
             </span>
           </div>
 
@@ -166,7 +166,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a target="_blank" rel="noopener noreferrer" href="http://arxiv.org/abs/2401.03707"
+                <a target="_blank" rel="noopener noreferrer" href="http://arxiv.org"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -176,7 +176,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=kO7KavOH6vw"
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -186,7 +186,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/KAIST-VICLab/FMA-Net"
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -236,17 +236,13 @@ bulmaCarousel.attach('#results-carousel', {
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present a joint learning scheme of video super-resolution and deblurring, called VSRDB, to restore clean high-resolution (HR) videos from blurry low-resolution (LR) ones.
-            This joint restoration problem has drawn much less attention compared to single restoration problems.
+ 
           </p>
           <p>
-            We propose a novel flow-guided dynamic filtering (FGDF) and iterative feature refinement with multi-attention (FRMA), which constitutes our VSRDB framework, denoted as FMA-Net.
-            Specifically, our proposed FGDF enables precise estimation of both spatio-temporally-variant degradation and restoration kernels that are aware of motion trajectories through sophisticated motion representation learning.
-            Compared to conventional dynamic filtering, the FGDF enables the FMA-Net to effectively handle large motions into the VSRDB.
+ 
           </p>
           <p>
-            Additionally, the stacked FRMA blocks trained with our novel temporal anchor (TA) loss, which temporally anchors and sharpens features, refine features in a course-to-fine manner through iterative updates.
-            Extensive experiments demonstrate the superiority of the proposed FMA-Net over state-of-the-art methods in terms of both quantitative and qualitative quality.
+ 
           </p>
 
           <p>
@@ -262,7 +258,7 @@ bulmaCarousel.attach('#results-carousel', {
       <div class="column is-full">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/G6qqJXztJDM"
+          <iframe src="https://www.youtube.com"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -272,87 +268,13 @@ bulmaCarousel.attach('#results-carousel', {
 </section>
 
 
-<section class="section">
-  <div class="container is-widescreen">
-    <h2 class="title is-3">Network Architecture</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <image src="./static/image/network.png" class="img-responsive" alt="DDNeRF_Architecture_v21"><br>
-        <div class="content has-text-justified">
-          <p>
-            <b>Top:</b> The architecture of FMA-Net for joint video super-resolution and deblurring (VSRDB). <br>
-            <b>Bottom:</b> (a) Structure of <i>i</i>+1-<i>th</i> FRMA block; (b) Concept of our flow-guided dynamic filtering.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-widescreen">
-    <h2 class="title is-3">Quantitative Results</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <image src="./static/image/quantitative_result.png" class="img-responsive" alt="DDNeRF_Architecture_v21"><br>
-        <div class="content has-text-justified">
-          <p>
-            Quantitative comparison on REDS4 for ×4 VSRDB.
-            All results are calculated on the RGB channel. Red and blue colors indicate the best and second-best performance, respectively.
-            The superscript <sup>*</sup> indicates that the model is retrained on the <a target="_blank" rel="noopener noreferrer" href="https://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Nah_NTIRE_2019_Challenge_on_Video_Deblurring_and_Super-Resolution_Dataset_and_CVPRW_2019_paper.html">REDS</a> training  dataset for VSRDB.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-widescreen">
-      <h2 class="title is-3">Qualitative Results</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full">
-          <image src="./static/image/qualitative_result.png" class="img-responsive" alt="DDNeRF_Architecture_v21"><br>
-          <div class="content has-text-justified">
-            <p>
-             Visual comparison results of different methods for ×4 VSRDB.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-
-<section class="section">
-  <div class="container is-widescreen">
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Acknowledgement</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT): No. 2021-0-00087, Development of high-quality conversion technology for SD/HD low-quality media and No. RS2022-00144444, Deep Learning Based Visual Representational Learning and Rendering of Static and Dynamic Scenes.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
-  </div>
-</section>
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-widescreen content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{youk2024fmanet,
-  author    = {Geunhyuk Youk and Jihyong Oh and Munchurl Kim},
-  title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
-  booktitle = {CVPR},
-  year      = {2024},
- }</code></pre>
-  </div>
-</section>
+
+
+
+
+
 
 
 <footer class="footer">
@@ -362,7 +284,7 @@ bulmaCarousel.attach('#results-carousel', {
          href="">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a target="_blank" rel="noopener noreferrer" class="icon-link" href="https://github.com/KAIST-VICLab" class="external-link" disabled>
+      <a target="_blank" rel="noopener noreferrer" class="icon-link" href="https://github.com" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -370,12 +292,11 @@ bulmaCarousel.attach('#results-carousel', {
       <div class="column is-8">
         <div class="content">
           <p>
-            We thank the authors of <a target="_blank" rel="noopener noreferrer" href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>  that kindly open sourced the template of this website.
-            Please visit our <a target="_blank" rel="noopener noreferrer" href="https://github.com/KAIST-VICLab">VIC-Lab</a> for more interesting researches
+   
           </p>
         </div>
       </div>
-      <a href="https://mapmyvisitors.com/web/1bvps"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=CCp7XZDLhyWJSzjeYxE-PUcQFV7fsl26aISiaMuAwW8&cl=ffffff" /></a>
+      <a href="https://mapmyvisitors.com"  title="Visit tracker"><img src="https://mapmyvisitors.com" /></a>
     </div>
   </div>
 </footer>
